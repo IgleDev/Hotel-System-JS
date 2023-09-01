@@ -1,0 +1,179 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.global{
+    width: 65%;
+    padding: 20px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.logo{
+    float: left;
+    width: 560px;
+    height: 80px;
+    color: white;
+    font-size: 25px;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+header nav{
+    font-family: Helvetica, sans-serif;
+}
+
+header nav select{
+    padding: 1%;
+    margin: 20px;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header nav button{
+    padding: 1%;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.filter{
+    width: 100%;
+    display: none;
+    border: 1px solid gray;
+    font-family: Helvetica, sans-serif;
+}
+
+.filter .container-filter{
+    margin: 2%;
+    display: inline-block;
+    justify-content: center;
+}
+
+.filter .container-filter h2{
+    margin-bottom: 2%;
+}
+
+.filter .container-filter button{
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px transparent;
+    background-color: #d9534f;
+}
+
+.filter .container-filter button:hover{
+    cursor: pointer;
+    background-color: #7b1714;
+}
+
+.container{
+    display: inline-flex;
+}
+
+.container-rooms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    font-family: Helvetica, sans-serif;
+}
+
+.room-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.room {
+    flex: 1;
+}
+
+.title {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.desc{
+    margin-top: 10px;
+    color: #666;
+}
+
+.pers {
+    margin-top: 10px;
+    color: #666;
+}
+
+.price {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #d9534f;
+}
+
+.stars{
+    margin-top: 10px;
+}
+
+.book-button {
+    margin-top: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.book-button a {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.book-button a:hover {
+    background-color: #0056b3;
+}
+
+.modal{
+    height: 24%;
+    line-height: 30px;
+}
+
+#modalClose{
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#modalPay, #modalReser{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
